@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/color2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnan1"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/color6"
+            android:text="Jardines Colagntes de Babilonia"
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+
+        <Button
+            android:id="@+id/btnan2"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/color1"
+            android:textColor="@color/black"
+            android:textSize="11dp"
+            android:text="La gran piramide de Guiza" />
+
+        <Button
+            android:id="@+id/btnan3"
+            android:layout_width="104dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/color3"
+            android:text="Templo de Artemisa"
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+
+        <Button
+            android:id="@+id/btnan4"
+            android:layout_width="104dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/color4"
+            android:text="Estatua de Zeus"
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsAntiguas" />
+</LinearLayout>

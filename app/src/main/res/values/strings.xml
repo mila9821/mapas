@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">tareamapa</string>
+    <string name="title_activity_maps_cusco">MapsCusco</string>
+    <string name="title_activity_maps_modernas">MapsModernas</string>
+    <string name="title_activity_maps_antiguas">MapsAntiguas</string>
+    <string name="title_activity_maps_ruta">MapsRuta</string>
+</resources>
